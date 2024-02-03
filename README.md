@@ -3,4 +3,4 @@
 
 ## Description
 
-This project is about scraping comments related to a given hashtag, in this case, `harcèlement`, from social media platforms. The scraped data is stored in a CSV file. A Flask application is then used to clean this data and apply a toxicity analysis model (Dexotify) to the comments. The results of the analysis are stored in a MongoDB database. Both the web scraping application and the Flask application are containerized using Docker.
+This project is about scraping comments related to a given hashtag, in our case, `harcèlement`, from Facebook. The scraped data is stored in a CSV file. A Flask application is then used to clean this data and apply a toxicity analysis model (Dexotify) to the comments. The results of the analysis are stored in a MongoDB database. Both the web scraping application and the Flask application are containerized using Docker.
